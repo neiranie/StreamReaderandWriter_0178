@@ -11,5 +11,8 @@ int main() {
 
     // membuat objek output file stream.
     ofstream outfile;
+    // membuka file untuk ditulisi.
+    outfile.open("contohfile.txt");
 
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
 }
